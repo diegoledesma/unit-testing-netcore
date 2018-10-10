@@ -17,4 +17,7 @@
     <ProjectReference Include="..\WorkshopRunner\WorkshopRunner.csproj" />
     <ProjectReference Include="..\AlbumsAPI\AlbumsAPI.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AlbumsAPI.Tests\" />
+  </ItemGroup>
 </Project>

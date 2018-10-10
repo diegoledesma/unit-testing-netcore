@@ -31,6 +31,13 @@ namespace AlbumsAPI.Controllers
             return _albumRepository.GetStartingWithVowel();
         }
 
+        [HttpGet("sortByTitle")]
+        public ActionResult<IEnumerable<Album>> GetSortedByTitle()
+        {
+            return _albumRepository.GetAll().OrderBy((Album arg) => arg.Title).ToList();
+        }
+
+
         // GET api/albums/5
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)

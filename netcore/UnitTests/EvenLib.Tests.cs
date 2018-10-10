@@ -1,7 +1,6 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using WorkshopRunner;
 using Loggers;
 
 namespace EvenLib.Tests
