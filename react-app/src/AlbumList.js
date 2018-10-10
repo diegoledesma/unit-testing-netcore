@@ -7,9 +7,10 @@ class AlbumList extends Component {
         return (<div>
             {
                 this.props.albums.map(a => (
-                <Album 
+                <Album
                     title={a.title}
-                    coverHttpPath={a.coverHttpPath}>
+                    coverHttpPath={a.coverHttpPath}
+                    key={a.coverHttpPath}>
                 </Album>))
             }
         </div>)

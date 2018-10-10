@@ -67,6 +67,7 @@
     "not op_mini all"
   ],
   "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js",
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}"
     ],
@@ -108,6 +109,11 @@
     ]
   },
   "devDependencies": {
-    "prop-types": "^15.6.2"
+    "chai": "^4.2.0",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "prop-types": "^15.6.2",
+    "react-test-renderer": "^16.5.2",
+    "sinon": "^6.3.5"
   }
 }
