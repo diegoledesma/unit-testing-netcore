@@ -28,4 +28,8 @@ Windows and macOS:
 Verify if Yarn was installed correctly by running `yarn -v`
 Go to the "react-app" folder and run `yarn install --pure-lockfile`
 
+### Linux
+Exclude the Visual Studio installation and follow the rest of the steps from the macOS install.
+
+
 You're good to go!
