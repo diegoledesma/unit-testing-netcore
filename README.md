@@ -23,3 +23,9 @@ https://nodejs.org/en/download/
 
 After installation succeeds install Yarn from the terminal using NPM:
 `npm i -g yarn`
+
+Windows and macOS:
+Verify if Yarn was installed correctly by running `yarn -v`
+Go to the "react-app" folder and run `yarn install --pure-lockfile`
+
+You're good to go!
