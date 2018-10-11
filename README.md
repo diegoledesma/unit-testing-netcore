@@ -5,6 +5,7 @@
 ### Windows
 Install Visual Studio Community 2017
 https://visualstudio.microsoft.com/downloads/
+<br/>Be sure to select the "Web Development" option in the "Workloads" section.
 
 Check if node is installed by running `node -v` in a command line window.
 If not installed, Install Node LTS (which includes NPM)
