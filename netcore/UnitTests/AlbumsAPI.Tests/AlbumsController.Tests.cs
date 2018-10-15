@@ -41,7 +41,13 @@ namespace UnitTests.AlbumsAPI.Tests
             };
 
 
+            _mockRepository.Setup(x => x.GetAll()).Returns(albumList);
 
+            var controller = new AlbumsController(_mockRepository.Object);
+
+            var albumsResult = controller.Get();
+
+            Assert.AreEqual(albumList, albumsResult.Value);
         }
 
         [TestMethod]
@@ -74,7 +80,13 @@ namespace UnitTests.AlbumsAPI.Tests
             };
 
 
+            _mockRepository.Setup(x => x.GetAll()).Returns(albumList);
 
+            var controller = new AlbumsController(_mockRepository.Object);
+
+            var sortedAlbumsResult = controller.GetSortedByTitle();
+
+            CollectionAssert.AreEqual(expectedList, sortedAlbumsResult.Value as List<Album>);
         }
     }
 }
