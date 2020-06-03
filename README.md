@@ -17,9 +17,9 @@ https://visualstudio.microsoft.com/downloads/
 
 ### API
 Run as a regular project from Visual Studio. Will startup on localhost:5000
-From console run `dotnet run -p AlbumsAPI/AlbumsAPI.csproj`
+From console run `dotnet run -p netcore/AlbumsAPI/AlbumsAPI.csproj`
 
 ### UnitTests
 Run as a regular project from Visual Studio.
-From console run `dotnet test -v n UnitTests/UnitTests.csproj`
+From console run `dotnet test -v n netcore/UnitTests/UnitTests.csproj`
 
