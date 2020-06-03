@@ -7,30 +7,19 @@ Install Visual Studio Community 2017
 https://visualstudio.microsoft.com/downloads/
 <br/>Be sure to select the "Web Development" option in the "Workloads" section.
 
-Check if node is installed by running `node -v` in a command line window.
-If not installed, Install Node LTS (which includes NPM)
-https://nodejs.org/en/download/
-
-After installation succeeds install Yarn from the command line using NPM:
-`npm i -g yarn`
 
 ### macOS
 Install Visual Studio for Mac
 https://visualstudio.microsoft.com/downloads/
 
-Check if node is installed by running `node -v` in a terminal window.
-If not installed, Install Node LTS (which includes NPM)
-https://nodejs.org/en/download/
 
-After installation succeeds install Yarn from the terminal using NPM:
-`npm i -g yarn`
+## Running projects
 
-Windows and macOS:
-Verify if Yarn was installed correctly by running `yarn -v`
-Go to the "react-app" folder and run `yarn install --pure-lockfile`
+### API
+Run as a regular project from Visual Studio. Will startup on localhost:5000
+From console run `dotnet run -p AlbumsAPI/AlbumsAPI.csproj`
 
-### Linux
-Exclude the Visual Studio installation and follow the rest of the steps from the macOS install.
+### UnitTests
+Run as a regular project from Visual Studio.
+From console run `dotnet test -v n UnitTests/UnitTests.csproj`
 
-
-You're good to go!
