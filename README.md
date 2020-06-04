@@ -9,8 +9,12 @@ https://visualstudio.microsoft.com/downloads/
 
 
 ### macOS
-Install Visual Studio for Mac
+Install Visual Studio for Mac or Visual Studio Code
 https://visualstudio.microsoft.com/downloads/
+https://code.visualstudio.com/
+
+Install ASP.Net Core framework v2.1
+https://dotnet.microsoft.com/download/dotnet-core/2.1
 
 
 ## Running projects
